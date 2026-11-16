@@ -1,0 +1,113 @@
+{
+  "matched": [
+    {
+      "key": "K01",
+      "local_amount_cents": 10000,
+      "remote_amount_cents": 10000,
+      "diff_cents": 0
+    },
+    {
+      "key": "K02",
+      "local_amount_cents": 120050,
+      "remote_amount_cents": 120050,
+      "diff_cents": 0
+    },
+    {
+      "key": "K03",
+      "local_amount_cents": 30000,
+      "remote_amount_cents": 30001,
+      "diff_cents": 1
+    },
+    {
+      "key": "K05",
+      "local_amount_cents": 50000,
+      "remote_amount_cents": 50000,
+      "diff_cents": 0
+    },
+    {
+      "key": "K06",
+      "local_amount_cents": 60000,
+      "remote_amount_cents": 60000,
+      "diff_cents": 0
+    },
+    {
+      "key": "K13",
+      "local_amount_cents": 101,
+      "remote_amount_cents": 101,
+      "diff_cents": 0
+    },
+    {
+      "key": "K14",
+      "local_amount_cents": 25000,
+      "remote_amount_cents": 25000,
+      "diff_cents": 0
+    },
+    {
+      "key": "K15",
+      "local_amount_cents": 35000,
+      "remote_amount_cents": 35000,
+      "diff_cents": 0
+    }
+  ],
+  "amount_mismatch": [
+    {
+      "key": "K04",
+      "local_amount_cents": 40000,
+      "remote_amount_cents": 40002,
+      "diff_cents": 2
+    },
+    {
+      "key": "K08",
+      "local_amount_cents": -80000,
+      "remote_amount_cents": 80000,
+      "diff_cents": 160000
+    },
+    {
+      "key": "K09",
+      "local_amount_cents": -10000,
+      "remote_amount_cents": 10000,
+      "diff_cents": 20000
+    }
+  ],
+  "missing": [
+    {
+      "key": "K10",
+      "side": "本地有对端缺",
+      "amount_cents": 90000
+    },
+    {
+      "key": "K11",
+      "side": "本地缺对端有",
+      "amount_cents": 90000
+    }
+  ],
+  "duplicate": [
+    {
+      "key": "K12",
+      "local_count": 3,
+      "remote_count": 3
+    }
+  ],
+  "suspicious": [
+    {
+      "key": "K07",
+      "local_amount_cents": 70000,
+      "remote_amount_cents": 70000,
+      "time_diff_seconds": 90000
+    }
+  ],
+  "summary": {
+    "matched": 8,
+    "amount_mismatch": 3,
+    "missing": 2,
+    "duplicate": 1,
+    "suspicious": 1,
+    "local_total_cents": 350151,
+    "remote_total_cents": 530154,
+    "raw_diff_cents": 180003,
+    "aligned_remote_total_cents": 530153,
+    "total_diff_cents": 180002,
+    "sum_of_diffs_cents": 180002,
+    "tolerance_cents": 1
+  }
+}
